@@ -26,15 +26,23 @@ class MainContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        Text('data'),
-        Text('data'),
-        Text('dataasdasd'),
-        Text('data'),
-      ],
+
+    var textStyle = TextStyle( fontSize: 50, fontWeight: FontWeight.bold, color: Colors.white);
+
+    return SafeArea(
+      bottom: false,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          SizedBox(height: 50,),
+          Text('11°', style: textStyle),
+          Text('Miércoles', style: textStyle),
+          Expanded(child: Container( )), //color: Colors.red
+          //TODO: expanded
+          Icon( Icons.keyboard_arrow_down, size: 100, color: Colors.white), 
+        ],
+      ),
     );
   }
 }
