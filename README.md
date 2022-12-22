@@ -1,6 +1,22 @@
 # designs_app
 
-A new Flutter project.
+A Flutter app focused on basic designs.
+ 
+<img src="https://user-images.githubusercontent.com/51382458/209193898-9c0de9d0-c3ee-4aff-8d0d-dcafeda51481.png" width="300" /> 
+<img src="https://user-images.githubusercontent.com/51382458/209193750-4bf425e2-55c6-4879-bf1c-d36dc2fd231b.png" width="300"/> 
+<img src="https://user-images.githubusercontent.com/51382458/209193618-70c70119-bb99-45dc-aa09-5bd66f4db4d7.png" width="300" /> 
+
+
+## Features 
+Check designs
+
+## What did i use in this app?
+
+Basic design - Recommended by Flutter
+
+Middle - PageViews & Images
+
+Advabced - blur, grids, background 
 
 ## Getting Started
 
