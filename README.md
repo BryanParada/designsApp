@@ -16,7 +16,7 @@ Basic design - Recommended by Flutter
 
 Middle - PageViews & Images
 
-Advabced - blur, grids, background 
+Advanced - blur, grids, background 
 
 ## Getting Started
 
