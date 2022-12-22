@@ -1,4 +1,5 @@
 import 'package:designs_app/widgets/background.dart';
+import 'package:designs_app/widgets/page_title.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -12,7 +13,9 @@ class HomeScreen extends StatelessWidget {
         children: [
 
           //BACKGROUND
-          BackgroundW()
+          BackgroundW(),
+
+          _HomeBody()
 
 
         ],
@@ -20,3 +23,18 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
+
+class _HomeBody extends StatelessWidget { 
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(//si el hijo es mas grande que todas las dimensiones me permite hacer scroll
+        child: Column(
+          children: [
+            //Titulos
+            PageTitle(),
+          ],
+        ),
+    );
+  }
+} 
